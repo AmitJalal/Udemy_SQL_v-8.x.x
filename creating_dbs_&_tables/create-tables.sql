@@ -62,7 +62,7 @@ SHOW TABLES;
 -- =================================================================
 -- =================================================================
 
--- show columns from <table_name> <=> describe desc <table_name> <=> desc <table_name>
+-- show columns from <table_name> <=> describe <table_name> <=> desc <table_name>
 
 SHOW COLUMNS FROM cats;
 
