@@ -46,6 +46,8 @@ show tables;
 
 */
 
+
+
 SELECT * FROM cats;
 
 /*
@@ -59,6 +61,8 @@ SELECT * FROM cats;
 
 */
 
+
+
 INSERT INTO cats(name, age)
          VALUES ( "red", 3),
 				("black", 5),
@@ -73,9 +77,11 @@ INSERT INTO cats(name, age)
 				("black", 5),
                 ("white", 6),
                 ("yellow", 7);
+
 
 -- Query OK, 4 rows affected (0.00 sec)
 -- Records: 4  Duplicates: 0  Warnings: 0
+
 
 SELECT * FROM cats;
 
